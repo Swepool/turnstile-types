@@ -203,12 +203,12 @@ export interface RenderParameters {
 	"response-field-name"?: string;
 
 	/**
-	 * The widget size. Can be 'normal' or 'compact'.
+	 * The widget size. Can be 'normal', 'compact' or 'flexible'.
 	 * - Data Attribute - `data-size`
 	 * @see https://developers.cloudflare.com/turnstile/get-started/client-side-rendering/#widget-size
 	 * @defaultValue "normal"
 	 */
-	size?: "normal" | "compact";
+	size?: "normal" | "compact" | "flexible";
 
 	/**
 	 * Automatically retry upon failure to obtain a token or never retry.
